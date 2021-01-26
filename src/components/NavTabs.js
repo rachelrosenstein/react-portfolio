@@ -1,50 +1,43 @@
 import React from "react";
-import { Link, useLocation } from "react-router-dom";
 
-function NavTabs() {
-  // We'll go into the Hooks API later, for now, we are just using some code
-  // from the react-router docs (https://reacttraining.com/react-router/web/api/Hooks/uselocation)
-  // This allows the component to check the route any time the user uses a link to navigate.
-  const location = useLocation();
-
+function NavTabs(props) {
   return (
     <ul className="nav nav-tabs">
       <li className="nav-item">
-        <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
+        <a
+          href="#home"
+          onClick={() => props.handlePageChange("Home")}
+          className={props.currentPage === "Home" ? "nav-link active" : "nav-link"}
+        >
           Home
-        </Link>
+        </a>
       </li>
       <li className="nav-item">
-        <Link
-          to="/about"
-          className={location.pathname === "/about" ? "nav-link active" : "nav-link"}
+        <a
+          href="#about"
+          onClick={() => props.handlePageChange("About")}
+          className={props.currentPage === "About" ? "nav-link active" : "nav-link"}
         >
           About
-        </Link>
+        </a>
       </li>
       <li className="nav-item">
-        <Link
-          to="/blog"
-          className={location.pathname === "/blog" ? "nav-link active" : "nav-link"}
+        <a
+          href="#portfolio"
+          onClick={() => props.handlePageChange("Portfolio")}
+          className={props.currentPage === "Portfolio" ? "nav-link active" : "nav-link"}
         >
-          Blog
-        </Link>
+          Portfolio
+        </a>
       </li>
       <li className="nav-item">
-        <Link
-          to="/contact"
-          className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}
+        <a
+          href="#contact"
+          onClick={() => props.handlePageChange("Contact")}
+          className={props.currentPage === "Contact" ? "nav-link active" : "nav-link"}
         >
           Contact
-        </Link>
-      </li>
-      <li className="nav-item">
-        <Link
-          to="/contact/learn"
-          className={location.pathname === "/contact/learn" ? "nav-link active" : "nav-link"}
-        >
-          Learn
-        </Link>
+        </a>
       </li>
     </ul>
   );
