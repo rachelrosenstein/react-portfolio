@@ -1,0 +1,22 @@
+.burger {
+    max-width: 20%;
+    height: auto;
+}
+
+.Vinyl {
+    max-width: 40%;
+    height: auto;
+}
+
+
+form{
+    border: #1c2e80;
+    border-style: solid;
+    border-width: 5px;
+    background-color: rgb(181, 227, 241);
+    text-align: center;
+}
+
+h1 {
+    text-align: left;
+}

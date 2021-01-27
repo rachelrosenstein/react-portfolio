@@ -1,11 +1,16 @@
 import React from "react";
+import Burger from "../burger.png";
+import fridge from "../fridge-recipe.jpeg"
+import vinyl from "../vinyldestination.jpg"
+import "../style.css";
 
 const Portfolio = () => (
-  <div>
+  <div className="divider">
     <h1> Portfolio Page</h1>
     <p></p>
     <div>
       <h2>Vinyl Destination</h2>
+      <img src={vinyl} alt='about iamge' className="Vinyl"></img>
       <p>Link to Github Repo: <a
         href="https://github.com/rachelrosenstein/Vinyl-Destination">https://github.com/rachelrosenstein/Vinyl-Destination</a>
       </p>
@@ -19,6 +24,7 @@ const Portfolio = () => (
     </div>
     <p></p>
     <h2>Eat Da Burger</h2>
+    <img src={Burger} alt='about iamge' className="burger"></img>
     <p>Link to Github Repo: <a
       href="https://github.com/rachelrosenstein/Eat-Da-Burger">https://github.com/rachelrosenstein/Eat-Da-Burger</a>
     </p>
@@ -30,7 +36,7 @@ const Portfolio = () => (
                     </p>
     <p></p>
     <h2>Fridge-Recipe App</h2>
-
+    <img src={fridge} alt='about iamge' className="Vinyl"></img>
     <p>Link to Github Repo: <a
       href="https://github.com/dchiev/Fridge-Recipe-App">https://github.com/dchiev/Fridge-Recipe-App</a>
     </p>
@@ -43,6 +49,7 @@ const Portfolio = () => (
                         origin, ingredients, instructions, a link to a Youtube video and a picture!</p>
 
     <h2>Code Quiz</h2>
+    <img src={Burger} alt='about iamge' className="Vinyl"></img>
     <p>Link to Github Repo: <a
       href="https://github.com/rachelrosenstein/Code-Quiz">https://github.com/rachelrosenstein/Code-Quiz</a>
     </p>
@@ -54,6 +61,7 @@ const Portfolio = () => (
                         JavaScript code.</p>
     <div>
       <h2>Workday Scheduler</h2>
+      <img src={Burger} alt='about iamge' className="Vinyl"></img>
       <p>Link to Github Repo: <a
         href="https://github.com/rachelrosenstein/Work-Day-Scheduler">https://github.com/rachelrosenstein/Work-Day-Scheduler</a>
       </p>
