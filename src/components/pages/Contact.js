@@ -1,10 +1,15 @@
 import React from "react";
 import data from '../data';
 import Form from "../contactForm"
+import SayHello from "../SayHello.png"
+import "../style.css"
 
 const Contact = () => (
   <div>
-    <h1>Contact Me!</h1>
+    <img src={SayHello} alt='about iamge' className="hello"></img>
+    <div>
+      <Form />
+    </div>
     <div className='contact-content'>
 
       <a href={`mailto:${data.contactEmail}`} className='email'>{data.contactEmail}</a>
@@ -13,9 +18,6 @@ const Contact = () => (
           <li key={index}><a target='_blank' rel="noopener noreferrer" href={link.url}>{link.name}</a></li>
         ))}
       </ul>
-    </div>
-    <div>
-      <Form />
     </div>
   </div>
 );

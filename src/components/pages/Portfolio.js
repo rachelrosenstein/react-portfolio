@@ -1,7 +1,9 @@
 import React from "react";
 import Burger from "../burger.png";
-import fridge from "../fridge-recipe.jpeg"
-import vinyl from "../vinyldestination.jpg"
+import fridge from "../fridge-recipe.jpeg";
+import vinyl from "../vinyldestination.jpg";
+import Codequiz from "../Codequiz.png";
+import Workday from "../Workday.png"
 import "../style.css";
 
 const Portfolio = () => (
@@ -49,7 +51,7 @@ const Portfolio = () => (
                         origin, ingredients, instructions, a link to a Youtube video and a picture!</p>
 
     <h2>Code Quiz</h2>
-    <img src={Burger} alt='about iamge' className="Vinyl"></img>
+    <img src={Codequiz} alt='about iamge' className="Vinyl"></img>
     <p>Link to Github Repo: <a
       href="https://github.com/rachelrosenstein/Code-Quiz">https://github.com/rachelrosenstein/Code-Quiz</a>
     </p>
@@ -61,7 +63,7 @@ const Portfolio = () => (
                         JavaScript code.</p>
     <div>
       <h2>Workday Scheduler</h2>
-      <img src={Burger} alt='about iamge' className="Vinyl"></img>
+      <img src={Workday} alt='about iamge' className="Vinyl"></img>
       <p>Link to Github Repo: <a
         href="https://github.com/rachelrosenstein/Work-Day-Scheduler">https://github.com/rachelrosenstein/Work-Day-Scheduler</a>
       </p>

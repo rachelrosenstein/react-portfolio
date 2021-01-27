@@ -57,7 +57,7 @@ class Form extends Component {
                         />
                         <div class="form-group">
                             <label for="exampleFormControlTextarea1">I can't wait to hear from you!</label>
-                            <input class="form-control" id="exampleFormControlTextarea1" rows="3"
+                            <input class="form-control" id="exampleFormControlTextarea1" rows="4"
                                 placeholder="Please add information about your company and your company's website!">
                             </input>
                         </div>
