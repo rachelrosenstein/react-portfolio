@@ -28,7 +28,7 @@ h1 {
     max-width: 20%;
     height: auto;
     border: black;
-    border-width: 5px;
+    border-width: 40px;
 }
 
 .hello {
@@ -36,5 +36,9 @@ h1 {
     max-width: 40%;
     height: auto;
     align-items: center;
+    display: 'flex',
 }
 
+.repoCard {
+align-items: center;
+}

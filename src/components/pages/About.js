@@ -23,7 +23,9 @@ function About() {
       nugget Charlie (pic of him on the right)! In my spare time I make resin and polymer clay
       earrings, I love to travel and go to the gym! I can’t wait to start my career in Web
       Development as it has always been a dream of mine for a while now!
-      </Col>
+      <br></br>
+          <a href="https://rachelrosenstein.github.io/Portfolio/" target="_blank"> Click Here to View my Original Portfolio Site </a>
+        </Col>
       </Row>
     </div>
   );

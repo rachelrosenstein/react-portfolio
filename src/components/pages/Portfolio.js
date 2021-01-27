@@ -1,6 +1,5 @@
 import React from "react";
 import { RepoCard } from "../Card/Card"
-import Workday from "../Workday.png"
 import "../style.css";
 import { propTypes } from "react-bootstrap/esm/Image";
 
@@ -34,12 +33,21 @@ const projects = [
   },
   {
     title: "Code-Quiz",
-    img: "../assets/fridge-recipe.jpeg",
+    img: "../assets/Codequiz.png",
     github: "https://github.com/rachelrosenstein/Code-Quiz",
     heroku: "https://rachelrosenstein.github.io/Code-Quiz/",
     description: `This is a multiple choice timed JavaScript quiz with multiple-choice questions. This
     app will run in the browser and feature dynamically updated HTML and CSS powered by your
     JavaScript code.`
+  },
+  {
+    title: "Workday Scheduler",
+    img: "../assets/Workday.png",
+    github: "https://github.com/rachelrosenstein/Work-Day-Scheduler",
+    heroku: "https://rachelrosenstein.github.io/Work-Day-Scheduler/",
+    description: `Create a simple calendar application that allows a user to save events for each hour
+    of the day by modifying starter code. This app will run in the browser and feature dynamically
+ updated HTML and CSS powered by jQuery.`
   },
 ]
 
@@ -49,19 +57,6 @@ function Portfolio() {
       <h1> Portfolio Page</h1>
       {projects.length ? projects.map((project, index) => <RepoCard key={index} {...project} />) : "No projects found"}
 
-      <div>
-        <h2>Workday Scheduler</h2>
-        <img src={Workday} alt='about iamge' className="Vinyl"></img>
-        <p>Link to Github Repo: <a
-          href="https://github.com/rachelrosenstein/Work-Day-Scheduler">https://github.com/rachelrosenstein/Work-Day-Scheduler</a>
-        </p>
-        <p>Link to Deployed Application: <a
-          href="https://rachelrosenstein.github.io/Work-Day-Scheduler/">https://rachelrosenstein.github.io/Work-Day-Scheduler/</a>
-        </p>
-        <p>Description: Create a simple calendar application that allows a user to save events for each hour
-        of the day by modifying starter code. This app will run in the browser and feature dynamically
-     updated HTML and CSS powered by jQuery.</p>
-      </div>
     </div>
 
   );
