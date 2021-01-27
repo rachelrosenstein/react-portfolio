@@ -4,6 +4,7 @@ import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 import Container from 'react-bootstrap/Container'
+import Footer from "./Footer/Footer";
 
 class reactPortfolio extends Component {
   state = {

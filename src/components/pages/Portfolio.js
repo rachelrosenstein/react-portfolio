@@ -9,6 +9,8 @@ import "../style.css";
 const Portfolio = () => (
   <div className="divider">
     <h1> Portfolio Page</h1>
+
+
     <p></p>
     <div>
       <h2>Vinyl Destination</h2>
