@@ -5,6 +5,7 @@ import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 import Container from 'react-bootstrap/Container'
 import Footer from "./Footer/Footer";
+import Header from "./Header/Header"
 
 class reactPortfolio extends Component {
   state = {
@@ -28,13 +29,15 @@ class reactPortfolio extends Component {
   render() {
     return (
       <div>
+        <Header />
+        <NavTabs
+          currentPage={this.state.currentPage}
+          handlePageChange={this.handlePageChange}
+        />
         <Container>
-          <NavTabs
-            currentPage={this.state.currentPage}
-            handlePageChange={this.handlePageChange}
-          />
+          {this.renderPage()}
         </Container>
-        {this.renderPage()}
+        <Footer />
       </div>
     );
   }
