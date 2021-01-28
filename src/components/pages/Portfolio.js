@@ -48,6 +48,13 @@ const projects = [
     of the day by modifying starter code. This app will run in the browser and feature dynamically
  updated HTML and CSS powered by jQuery.`
   },
+  {
+    title: "Employee Tracker",
+    img: "https://github.com/rachelrosenstein/employee-directory/raw/main/Screen%20Shot%202021-01-22%20at%208.21.46%20PM.png?raw=true",
+    github: "https://github.com/rachelrosenstein/employee-directory",
+    heroku: "https://rachelrosenstein.github.io/employee-directory/",
+    description: `As a user, I want to be able to view my entire employee directory at once so that I have quick access to their information. I also want to be able to filter out by name to make getting information more efficient.`
+  },
 ]
 
 function Portfolio() {
