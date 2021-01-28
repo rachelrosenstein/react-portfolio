@@ -6,9 +6,7 @@ export default
         resume: "",
         aboutImage: '',
         ShowAboutImage: true,
-
         social: [
-
             {
                 name: 'Github',
                 url: 'https://github.com/rachelrosenstein'
@@ -21,6 +19,5 @@ export default
                 name: 'Rachel Rosenstein Photography',
                 url: 'https://rachelrosensteinphotography.mypixieset.com/'
             }
-
         ]
     }
