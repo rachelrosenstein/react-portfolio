@@ -1,12 +1,11 @@
 import React from "react";
 import { RepoCard } from "../Card/Card"
 import "../style.css";
-import { propTypes } from "react-bootstrap/esm/Image";
 
 const projects = [
   {
     title: "Vinyl Destination",
-    img: "../assets/vinyldestination.jpg",
+    img: "../public/assets/vinyldestination.jpg",
     github: "https://github.com/rachelrosenstein/Vinyl-Destination",
     heroku: "https://murmuring-coast-03451.herokuapp.com/",
     description: `Description:A simple web application that allows the user to create an account and start a
@@ -15,7 +14,7 @@ const projects = [
   },
   {
     title: "Eat-Da-Burger",
-    img: "../assets/burger.png",
+    img: "../public/assets/burger.png",
     github: "https://github.com/rachelrosenstein/Eat-Da-Burger",
     heroku: "https://murmuring-coast-03451.herokuapp.com/",
     description: `A simple application that allows the user to create a burger, click a button and add
