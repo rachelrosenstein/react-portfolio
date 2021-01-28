@@ -1,7 +1,7 @@
 # react-portfolio
 
 Employee Tracker application with offline access and functionality
-![](https://github.com/rachelrosenstein/employee-directory/blob/main/Screen%20Shot%202021-01-22%20at%208.21.46%20PM.png?raw=true)
+![](https://github.com/rachelrosenstein/react-portfolio/blob/main/public/assets/Screen%20Shot%202021-01-28%20at%2010.11.45%20AM.png?raw=true)
 
 [Deployed App](https://rachelrosenstein.github.io/react-portfolio/)
 ## Table of Contents
