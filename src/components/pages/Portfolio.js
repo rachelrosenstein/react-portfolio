@@ -14,7 +14,7 @@ const projects = [
   },
   {
     title: "Eat-Da-Burger",
-    img: "../public/assets/burger.png",
+    img: "https://github.com/rachelrosenstein/react-portfolio/blob/main/public/assets/burger.png?raw=true",
     github: "https://github.com/rachelrosenstein/Eat-Da-Burger",
     heroku: "https://murmuring-coast-03451.herokuapp.com/",
     description: `A simple application that allows the user to create a burger, click a button and add
@@ -22,7 +22,7 @@ const projects = [
   },
   {
     title: "Fridge-Recipe App",
-    img: "../assets/fridge-recipe.jpeg",
+    img: "https://github.com/rachelrosenstein/react-portfolio/blob/main/public/assets/fridge-recipe.jpeg?raw=true",
     github: "https://github.com/dchiev/Fridge-Recipe-App",
     heroku: "https://dchiev.github.io/Fridge-Recipe-App",
     description: `This application is designed so that everyone can have a
@@ -32,7 +32,7 @@ const projects = [
   },
   {
     title: "Code-Quiz",
-    img: "../assets/Codequiz.png",
+    img: "https://github.com/rachelrosenstein/react-portfolio/blob/main/public/assets/Codequiz.png?raw=true",
     github: "https://github.com/rachelrosenstein/Code-Quiz",
     heroku: "https://rachelrosenstein.github.io/Code-Quiz/",
     description: `This is a multiple choice timed JavaScript quiz with multiple-choice questions. This
@@ -41,7 +41,7 @@ const projects = [
   },
   {
     title: "Workday Scheduler",
-    img: "../assets/Workday.png",
+    img: "https://github.com/rachelrosenstein/react-portfolio/blob/main/public/assets/Workday.png?raw=true",
     github: "https://github.com/rachelrosenstein/Work-Day-Scheduler",
     heroku: "https://rachelrosenstein.github.io/Work-Day-Scheduler/",
     description: `Create a simple calendar application that allows a user to save events for each hour
