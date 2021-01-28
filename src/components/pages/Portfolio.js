@@ -5,7 +5,7 @@ import "../style.css";
 const projects = [
   {
     title: "Vinyl Destination",
-    img: "../public/assets/vinyldestination.jpg",
+    img: "https://github.com/rachelrosenstein/react-portfolio/blob/main/public/assets/vinyldestination.jpg?raw=true",
     github: "https://github.com/rachelrosenstein/Vinyl-Destination",
     heroku: "https://murmuring-coast-03451.herokuapp.com/",
     description: `Description:A simple web application that allows the user to create an account and start a
